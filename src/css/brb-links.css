@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+width:100%;	
+margin:0;
+padding:0;
+background-color:RGB(255,255,255);
+height:auto;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+	height:auto;
+	display:block;
+
+	
+}
+
+#graphic {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	display:block;
+	background:url(../img/maint-cloud-02.png) no-repeat 0 0;
+	background-position:center top;
+/*	background-size:cover;*/
+	min-height:597px;
+	position:relative;
+	height:auto;
+		/*height:597px;
+	min-width:617px;
+
+	
+	*/
+	
+}
+
+ span.accessible {
+	font: .0001em/.0001em Arial, Helvetica, sans-serif;
+	color:white;
+	margin:0 0 0 -10000px;
+	height:0px !important;
+	float:left;
+	clear:both;
+}
+
+
+#message {
+	
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font:.9em/1em corbel, sans-serif;
+	color:RGB(0,27,73);	
+	position:absolue;
+	
+	display:inline-block;
+	padding-bottom:50px;
+	height:auto;
+	margin-top:450px;
+	vertical-align:bottom;
+	}
+
+p {
+	text-align:center;
+	padding:0 5%;
+	font:1em/1.2m Arial, Helvetica, sans-serif;
+	
+}
+a {
+	color:RGB(39,92,153);
+}
+
+a:hover {
+	color:RGB(0, 27, 73);
+}
+.note {
+	font:italic .9em/1em  Arial, Helvetica, sans-serif;
+	color:RGB(39,92,153)
+}
+
+@media screen and (min-width: 319px)  and (max-width:700px) {
+	
+	
+	
+	
+	#graphic {
+	background:url(../img/maint-cloud-02.png) no-repeat 0 0;
+	background-position:center top;
+/*	margin-top:-50px;*/
+	background-size:200% !important;
+	
+		}
+	
+		
+		#message {
+	
+	margin-top:60%;
+}
+
+}
